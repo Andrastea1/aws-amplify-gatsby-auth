@@ -12,7 +12,7 @@ Amplify.configure(config)
 const IndexPage = () => (
   <Layout>
     <h1>Hi people</h1>
-    <img src={{Logo}}/>
+    <img src={Logo}/>
     <p>Welcome to your new Gatsby site with multi-user authentication powered by <a href="https://amplify.aws">AWS Amplify</a></p>
     <p>Create a new account: <Link to="/app/signup">Sign Up</Link></p>
     <Link to="/app/login">Sign In</Link><br />
